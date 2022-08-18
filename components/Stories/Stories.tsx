@@ -24,12 +24,14 @@ const Stories = () => {
       className={styles.carousel}
       ref={carousel}
       whileTap={{ cursor: "grabbing" }}
-      transition={{ ease: "easeOut", duration: 2 }}
     >
       <motion.div
         className={styles.innerCarousel}
         drag="x"
         dragConstraints={{ right: 0, left: -width }}
+        animate={{ x: 0 }}
+        initial={{ x: 100 }}
+        transition={{ ease: "easeOut", duration: 1 }}
       >
         {storiesCard.map((item) => (
           <motion.div
