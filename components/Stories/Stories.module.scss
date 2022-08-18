@@ -1,4 +1,4 @@
-.carousel {
+.container {
    cursor: grab;
    overflow: hidden;
    overflow-x: scroll;
@@ -10,7 +10,7 @@
       display: none;
    }
 
-   .innerCarousel {
+   .carousel {
       display: flex;
       gap: 16px;
 

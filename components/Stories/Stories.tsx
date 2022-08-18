@@ -21,12 +21,13 @@ const Stories = () => {
 
   return (
     <motion.div
-      className={styles.carousel}
+      className={styles.container}
       ref={carousel}
       whileTap={{ cursor: "grabbing" }}
+      transition={{ ease: "easeOut", duration: 1 }}
     >
       <motion.div
-        className={styles.innerCarousel}
+        className={styles.carousel}
         drag="x"
         dragConstraints={{ right: 0, left: -width }}
         animate={{ x: 0 }}
