@@ -10,10 +10,9 @@ const Stories = () => {
   const carousel = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    setWidth(carousel.current?.scrollWidth! - carousel.current?.offsetWidth!);
-    console.log(
-      setWidth(carousel.current?.scrollWidth! - carousel.current?.offsetWidth!)
-    );
+    if (carousel?.current) {
+      setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
+    }
   }, []);
 
   return (
@@ -25,7 +24,7 @@ const Stories = () => {
       <motion.div
         className={styles.innerCarousel}
         drag="x"
-        dragConstraints={{ right: 0, left: -620 }}
+        dragConstraints={{ right: 0, left: -width }}
       >
         {storiesCard.map((item) => (
           <motion.div className={styles.item} key={item.id}>
