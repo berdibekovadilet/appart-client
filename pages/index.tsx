@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Appart.kg</title>
         <meta
@@ -16,7 +16,97 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-    </div>
+      <div className={styles.container}>
+        <h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+        </p>
+        <h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+        </p>
+        <h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+        </p>
+        <h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis
+          illum laborum rem blanditiis aut harum impedit repellat porro qui.
+          Porro veniam, omnis consequuntur dolore ex eum sit mollitia nihil.
+        </p>
+      </div>
+    </>
   );
 };
 

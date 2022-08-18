@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap");
 
+/* GLOBAL STYLES */
+
+:root {
+  --base1: #ffffff;
+  --base2: #ededed;
+  --text1: #1b1f3bac;
+  --text2: #1b1f3b65;
+  --text3: #1b1f3b40;
+  --primary1: #4d8aebc0;
+  --primary2: #6c86e2;
+}
+
+/* NORMALIZE */
+
 html,
 body {
   padding: 0;
