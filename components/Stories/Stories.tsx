@@ -2,12 +2,16 @@ import Image from "next/image";
 import React from "react";
 import { storiesCard } from "../../data";
 import styles from "./Stories.module.scss";
-import { motion } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 
 const Stories = () => {
   const [width, setWidth] = useState(0);
   const carousel = useRef<HTMLInputElement>(null);
+
+  const { scrollX } = useScroll({
+    container: carousel,
+  });
 
   useEffect(() => {
     if (carousel?.current) {
@@ -20,6 +24,7 @@ const Stories = () => {
       className={styles.carousel}
       ref={carousel}
       whileTap={{ cursor: "grabbing" }}
+      transition={{ ease: "easeOut", duration: 2 }}
     >
       <motion.div
         className={styles.innerCarousel}
@@ -27,7 +32,12 @@ const Stories = () => {
         dragConstraints={{ right: 0, left: -width }}
       >
         {storiesCard.map((item) => (
-          <motion.div className={styles.item} key={item.id}>
+          <motion.div
+            className={styles.item}
+            key={item.id}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
             <div className={styles.imgContainer}>
               <Image src={item.image} alt="stories" width="102" height="102" />
             </div>
