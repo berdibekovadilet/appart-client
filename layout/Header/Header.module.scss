@@ -1,4 +1,10 @@
 .container {
+   // position: fixed;
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 80px;
    .logo {
       font-size: 24px;
       font-weight: 700;
@@ -9,5 +15,7 @@
       -webkit-text-fill-color: transparent;
    }
    .menu {
+      display: flex;
+      gap: 8px;
    }
 }
