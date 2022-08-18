@@ -37,8 +37,8 @@ const Stories = () => {
           <motion.div
             className={styles.item}
             key={item.id}
-            whileHover={{ scale: 1.08 }}
-            whileTap={{ scale: 0.98 }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
           >
             <div className={styles.imgContainer}>
               <Image src={item.image} alt="stories" width="102" height="102" />
