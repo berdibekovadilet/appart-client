@@ -1,21 +1,25 @@
 import Image from "next/image";
 import React from "react";
+import { storiesCard } from "../../data";
 import styles from "./Stories.module.scss";
 
 const Stories = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.card}>
-        <div className={styles.imgContainer}>
-          <Image
-            src="/assets/stories/covers/1.webp"
-            alt="stories"
-            width={100}
-            height={100}
-          />
+      {storiesCard.map((item) => (
+        <div className={styles.card} key={item.id}>
+          <div className={styles.imgContainer}>
+            <Image
+              src={item.image}
+              alt="stories"
+              layout="fill"
+              objectFit="cover"
+              style={{ padding: "4px" }}
+            />
+          </div>
+          <p className={styles.description}>{item.description}</p>
         </div>
-        <p className={styles.description}>Lorem Ipsum akldkadlnaldn</p>
-      </div>
+      ))}
     </div>
   );
 };

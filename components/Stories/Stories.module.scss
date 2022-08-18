@@ -1,15 +1,17 @@
 .container {
    display: flex;
    gap: 12px;
+   flex-wrap: wrap;
 
    .card {
       display: flex;
       flex-direction: column;
       max-width: 100px;
       .imgContainer {
-         width: 108px;
-         height: 108px;
-         border-radius: 16px;
+         position: relative;
+         width: 100px;
+         height: 100px;
+         border-radius: 14px;
          border: 2px solid rgba(77, 137, 235, 0.8);
          display: flex;
          align-items: center;
