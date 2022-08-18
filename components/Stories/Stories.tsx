@@ -30,15 +30,15 @@ const Stories = () => {
         drag="x"
         dragConstraints={{ right: 0, left: -width }}
         animate={{ x: 0 }}
-        initial={{ x: 100 }}
+        initial={{ x: -200 }}
         transition={{ ease: "easeOut", duration: 1 }}
       >
         {storiesCard.map((item) => (
           <motion.div
             className={styles.item}
             key={item.id}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
+            whileHover={{ scale: 1.08 }}
+            whileTap={{ scale: 0.98 }}
           >
             <div className={styles.imgContainer}>
               <Image src={item.image} alt="stories" width="102" height="102" />
