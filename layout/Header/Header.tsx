@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./Header.module.scss";
-import { menuIcons } from "/data";
+import { menuIcons } from "../../data";
 import { IMenuIcons } from "../../data";
 
 const Header = () => {
