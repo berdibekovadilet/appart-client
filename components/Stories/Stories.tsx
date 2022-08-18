@@ -9,13 +9,7 @@ const Stories = () => {
       {storiesCard.map((item) => (
         <div className={styles.card} key={item.id}>
           <div className={styles.imgContainer}>
-            <Image
-              src={item.image}
-              alt="stories"
-              layout="fill"
-              objectFit="cover"
-              style={{ padding: "4px" }}
-            />
+            <Image src={item.image} alt="stories" width="104" height="104" />
           </div>
           <p className={styles.description}>{item.description}</p>
         </div>
