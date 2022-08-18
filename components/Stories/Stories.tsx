@@ -7,15 +7,14 @@ import { useRef, useEffect, useState } from "react";
 
 const Stories = () => {
   const [width, setWidth] = useState(0);
-  //   const carousel = useRef();
-  const carousel = React.createRef<HTMLDivElement>();
+  const carousel = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    console.log(
-      carousel.current?.scrollWidth! - carousel.current?.offsetWidth!
-    );
     setWidth(carousel.current?.scrollWidth! - carousel.current?.offsetWidth!);
-  }, [carousel]);
+    console.log(
+      setWidth(carousel.current?.scrollWidth! - carousel.current?.offsetWidth!)
+    );
+  }, []);
 
   return (
     <motion.div
@@ -26,7 +25,7 @@ const Stories = () => {
       <motion.div
         className={styles.innerCarousel}
         drag="x"
-        dragConstraints={{ right: 0, left: -60 }}
+        dragConstraints={{ right: 0, left: -620 }}
       >
         {storiesCard.map((item) => (
           <motion.div className={styles.item} key={item.id}>
