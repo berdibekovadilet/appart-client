@@ -7,6 +7,7 @@ import Head from "next/head";
 
 import styles from "../styles/Home.module.css";
 import VipCottages from "../components/VipCottages/VipCottages";
+import ButtonPrimary from "../components/ButtonPrimary/ButtonPrimary";
 
 const Home: NextPage = () => {
   return (
@@ -24,7 +25,8 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <Stories />
         <MainMenu />
-        <VipCottages/>
+        <VipCottages />
+        <ButtonPrimary>Создать объявление</ButtonPrimary>
       </div>
     </>
   );
