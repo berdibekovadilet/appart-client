@@ -1,9 +1,12 @@
-import type { NextPage } from "next";
-import Head from "next/head";
+import Header from "../layout/Header/Header";
 import MainMenu from "../components/MainMenu/MainMenu";
 import Stories from "../components/Stories/Stories";
-import Header from "../layout/Header/Header";
+
+import type { NextPage } from "next";
+import Head from "next/head";
+
 import styles from "../styles/Home.module.css";
+import VipCottages from "../components/VipCottages/VipCottages";
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +24,7 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <Stories />
         <MainMenu />
+        <VipCottages/>
       </div>
     </>
   );

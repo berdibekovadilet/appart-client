@@ -21,7 +21,12 @@ const Stories = () => {
             whileTap={{ scale: 0.9 }}
           >
             <div className={styles.imgContainer}>
-              <Image src={item.image} alt="stories" width="102" height="102" />
+              <Image
+                src={item.image}
+                alt="stories"
+                width="100%"
+                height="100%"
+              />
             </div>
             <p className={styles.description}>{item.description}</p>
           </motion.div>

@@ -1,21 +1,10 @@
 .container {
-   cursor: grab;
-   overflow-x: auto;
-   overflow-y: hidden;
-   -webkit-overflow-scrolling: touch;
-   position: relative;
-   padding: 8px;
-   -ms-overflow-style: none; /* IE and Edge */
-   scrollbar-width: none; /* Firefox */
-
-   &::-webkit-scrollbar {
-      display: none;
-   }
-
-   .carousel {
+   margin-top: 24px;
+   .row {
+      margin-top: 16px;
       display: flex;
-      gap: 16px;
-
+      flex-wrap: wrap;
+      justify-content: space-between;
       .item {
          display: flex;
          flex-direction: column;

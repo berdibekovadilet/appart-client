@@ -115,7 +115,31 @@ export const menuIcons: IMenuIcons[] = [
   },
   {
     id: 8,
-    text: "Оформление жилья",
+    text: "Оформление сделок",
     icon: "/assets/menuIcons/dealsRegistration.svg",
+  },
+];
+
+export interface IVipCard {
+  id: number;
+  image: string;
+  description: string;
+}
+
+export const vipCard: IStoriesCard[] = [
+  {
+    id: 1,
+    description: "Браво",
+    image: "/assets/vipCottages/1.webp",
+  },
+  {
+    id: 2,
+    description: "Ницца",
+    image: "/assets/vipCottages/2.webp",
+  },
+  {
+    id: 3,
+    description: "Ачакей",
+    image: "/assets/vipCottages/3.webp",
   },
 ];

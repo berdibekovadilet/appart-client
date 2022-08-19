@@ -1,18 +1,23 @@
 .container {
    margin-top: 24px;
-   display: flex;
-   justify-content: space-evenly;
-   flex-wrap: wrap;
-   gap: 24px;
-   .menuCard {
-      width: 62px;
-      cursor: pointer;
-      .desc {
-         font-size: 11px;
-         font-weight: 400;
-         letter-spacing: 0.4px;
-         line-height: 16px;
-         text-align: center;
+   .row {
+      margin-top: 16px;
+      display: flex;
+      justify-content: space-between;
+      width: 99%;
+      flex-wrap: wrap;
+      gap: 24px;
+      .menuCard {
+         width: 62px;
+         cursor: pointer;
+
+         .desc {
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: 0.4px;
+            line-height: 16px;
+            text-align: center;
+         }
       }
    }
 }
