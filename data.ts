@@ -1,24 +1,24 @@
-export interface IMenuIcons {
+export interface INavbarIcons {
   id: number;
   name: string;
   icon: string;
 }
 
-export const menuIcons: IMenuIcons[] = [
+export const navbarIcons: INavbarIcons[] = [
   {
     id: 1,
     name: "search",
-    icon: "/assets/search.svg",
+    icon: "/assets/navbarIcons/search.svg",
   },
   {
     id: 2,
     name: "map",
-    icon: "/assets/map.svg",
+    icon: "/assets/navbarIcons/map.svg",
   },
   {
     id: 3,
     name: "profile",
-    icon: "/assets/profile.svg",
+    icon: "/assets/navbarIcons/profile.svg",
   },
 ];
 
@@ -68,5 +68,54 @@ export const storiesCard: IStoriesCard[] = [
     id: 8,
     description: "Lorem Ipsum akldkadlnaldn",
     image: "/assets/stories/covers/8.webp",
+  },
+];
+
+export interface IMenuIcons {
+  id: number;
+  text: string;
+  icon: string;
+}
+
+export const menuIcons: IMenuIcons[] = [
+  {
+    id: 1,
+    text: "Купить",
+    icon: "/assets/menuIcons/buy.svg",
+  },
+  {
+    id: 2,
+    text: "Аренда",
+    icon: "/assets/menuIcons/rent.svg",
+  },
+  {
+    id: 3,
+    text: "Оценка",
+    icon: "/assets/menuIcons/evaluation.svg",
+  },
+  {
+    id: 4,
+    text: "Новостройки",
+    icon: "/assets/menuIcons/newBuildings.svg",
+  },
+  {
+    id: 5,
+    text: "Подбор риэлтора",
+    icon: "/assets/menuIcons/realtorSelection.svg",
+  },
+  {
+    id: 6,
+    text: "Ипотека",
+    icon: "/assets/menuIcons/mortgage.svg",
+  },
+  {
+    id: 7,
+    text: "Проверка жилья",
+    icon: "/assets/menuIcons/housingChecking.svg",
+  },
+  {
+    id: 8,
+    text: "Оформление жилья",
+    icon: "/assets/menuIcons/dealsRegistration.svg",
   },
 ];

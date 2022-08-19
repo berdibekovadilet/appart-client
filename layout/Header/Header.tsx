@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./Header.module.scss";
-import { menuIcons } from "../../data";
+import { navbarIcons } from "../../data";
 
 const Header = () => {
   return (
@@ -9,9 +9,9 @@ const Header = () => {
       <div className={styles.container}>
         <div className={styles.logo}>Appart.kg</div>
         <ul className={styles.menu}>
-          {menuIcons.map((menu) => (
-            <li key={menu.id}>
-              <Image src={menu.icon} width={24} height={24} alt={menu.name} />
+          {navbarIcons.map((item) => (
+            <li key={item.id}>
+              <Image src={item.icon} width={24} height={24} alt={item.name} />
             </li>
           ))}
         </ul>
