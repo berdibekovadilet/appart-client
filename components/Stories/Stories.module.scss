@@ -1,7 +1,10 @@
 .container {
    cursor: grab;
-   overflow: hidden;
-   overflow-x: scroll;
+   overflow-x: auto;
+   overflow-y: hidden;
+   -webkit-overflow-scrolling: touch;
+   // white-space: nowrap;
+   position: relative;
    padding: 8px;
    -ms-overflow-style: none; /* IE and Edge */
    scrollbar-width: none; /* Firefox */
