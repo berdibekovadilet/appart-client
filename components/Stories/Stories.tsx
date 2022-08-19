@@ -30,9 +30,9 @@ const Stories = () => {
         className={styles.carousel}
         drag="x"
         dragConstraints={{ right: 0, left: -width * 1.5 }}
-        animate={{ x: 0 }}
         initial={{ x: -200 }}
-        transition={{ ease: "easeOut", duration: 1 }}
+        animate={{ x: 0 }}
+        transition={{ ease: "easeOut" }}
       >
         {storiesCard.map((item) => (
           <motion.div
