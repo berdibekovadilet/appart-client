@@ -11,6 +11,7 @@ const Stories = () => {
         className={styles.carousel}
         initial={{ x: -200 }}
         animate={{ x: 0 }}
+        transition={{ ease: "easeOut", duration: 1 }}
       >
         {storiesCard.map((item) => (
           <motion.div
