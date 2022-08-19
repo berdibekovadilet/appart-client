@@ -29,7 +29,7 @@ const Stories = () => {
       <motion.div
         className={styles.carousel}
         drag="x"
-        dragConstraints={{ right: 0, left: -width }}
+        dragConstraints={{ right: 0, left: -width*1.5 }}
         animate={{ x: 0 }}
         initial={{ x: -200 }}
         transition={{ ease: "easeOut", duration: 1 }}
