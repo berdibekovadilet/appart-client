@@ -2,13 +2,18 @@ import React from "react";
 import styles from "./ButtonPrimary.module.scss";
 import Image from "next/image";
 import { ButtonPrimaryProps } from "./ButtonButtonPrimary.props";
+import { motion } from "framer-motion";
 
 const ButtonPrimary = ({
   children,
   ...props
 }: ButtonPrimaryProps): JSX.Element => {
   return (
-    <div className={styles.container}>
+    <motion.div
+      className={styles.container}
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+    >
       <button className={styles.primary} {...props}>
         {children}
         <div className={styles.iconContainer}>
@@ -20,7 +25,7 @@ const ButtonPrimary = ({
           />
         </div>
       </button>
-    </div>
+    </motion.div>
   );
 };
 
