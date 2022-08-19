@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import MainMenu from "../components/MainMenu/MainMenu";
+import ScrollHor from "../components/ScrollHor/ScrollHor";
 import Stories from "../components/Stories/Stories";
 import Header from "../layout/Header/Header";
 import styles from "../styles/Home.module.css";
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <Stories />
         <MainMenu />
+        <ScrollHor />
       </div>
     </>
   );
