@@ -13,7 +13,7 @@ const Home: NextPage = () => {
           name="description"
           content="Appart.kg - покупка и аренда недвижимости в Бишкеке, Кыргызстане"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Header />
