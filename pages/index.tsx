@@ -9,6 +9,8 @@ import styles from "../styles/Home.module.css";
 import VipCottages from "../components/VipCottages/VipCottages";
 import ButtonPrimary from "../components/ButtonPrimary/ButtonPrimary";
 import Recommendation from "../components/Recommendation/Recommendation";
+import HousingComplexes1 from "../components/HousingComplexes/HousingComplexes1";
+import HousingComplexes2 from "../components/HousingComplexes/HousingComplexes2";
 
 const Home: NextPage = () => {
   return (
@@ -29,6 +31,8 @@ const Home: NextPage = () => {
         <VipCottages />
         <ButtonPrimary>Создать объявление</ButtonPrimary>
         <Recommendation />
+        <HousingComplexes1 />
+        <HousingComplexes2 />
       </div>
     </>
   );

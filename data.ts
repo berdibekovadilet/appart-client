@@ -210,3 +210,66 @@ export const recommendedCard: IRecommendedCard[] = [
     longDesc: "Бишкек, 6-мкр, дом 95",
   },
 ];
+
+export interface IHouseComplex {
+  id: number;
+  image: string;
+  title: string;
+  status: string;
+  price: string;
+  location: string;
+}
+
+export const AvangardComplex: IHouseComplex[] = [
+  {
+    id: 1,
+    image: "/assets/housingComplexes/avangard/1.webp",
+    title: "Монреаль",
+    status: "Сдан в эксплуатацию",
+    price: "от 1300$ за м2",
+    location: "мкр. Асанбай",
+  },
+  {
+    id: 2,
+    image: "/assets/housingComplexes/avangard/2.webp",
+    title: "Avangard City",
+    status: "Сдача ПСО в 2023г, 4 квартал",
+    price: "от 850$ за м2",
+    location: "мкр. Асанбай",
+  },
+  {
+    id: 3,
+    image: "/assets/housingComplexes/avangard/3.webp",
+    title: "Манхэттен",
+    status: "Сдан в эксплуатацию",
+    price: "от 1100$ за м2",
+    location: "мкр. Асанбай",
+  },
+];
+
+export const RoyalComplex: IHouseComplex[] = [
+  {
+    id: 1,
+    image: "/assets/housingComplexes/royal/1.webp",
+    title: "Royal",
+    status: "Сдача ПСО в 2023г, 4 квартал",
+    price: "от 850$ за м2",
+    location: "мкр. Асанбай",
+  },
+  {
+    id: 2,
+    image: "/assets/housingComplexes/royal/2.webp",
+    title: "Дипломат",
+    status: "Сдан в эксплуатацию",
+    price: "от 950$ за м2",
+    location: "мкр. Асанбай",
+  },
+  {
+    id: 3,
+    image: "/assets/housingComplexes/avangard/3.webp",
+    title: "Кожомкул",
+    status: "Сдача ПСО в 2023г, 4 квартал",
+    price: "от 850$ за м2",
+    location: "мкр. Асанбай",
+  },
+];

@@ -17,7 +17,7 @@ const MainMenu = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <Image src={item.icon} alt="menuIcon" width="62" height="62" />
+            <Image src={item.icon} alt={item.text} width="62" height="62" />
             <h4 className={styles.desc}>{item.text}</h4>
           </motion.div>
         ))}

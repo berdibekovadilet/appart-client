@@ -18,15 +18,20 @@ const Recommendation = () => {
             whileTap={{ scale: 0.9 }}
           >
             <div className={styles.imgContainer}>
-              <Image src={item.image} width="160" height="160" alt="card" />
+              <Image
+                src={item.image}
+                width="160"
+                height="160"
+                alt={item.title}
+              />
             </div>
             <div className={styles.title}>{item.title}</div>
             <div className={styles.shortDesc}>
-              <div className={styles.room}>{item.room}</div>
+              <h3 className={styles.room}>{item.room}</h3>
               <div className={styles.square}>{item.square}</div>
               <div className={styles.floor}>{item.floor}</div>
             </div>
-            <div className={styles.longDesc}>{item.longDesc}</div>
+            <p className={styles.longDesc}>{item.longDesc}</p>
           </motion.div>
         ))}
       </div>

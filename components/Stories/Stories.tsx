@@ -23,7 +23,7 @@ const Stories = () => {
             <div className={styles.imgContainer}>
               <Image
                 src={item.image}
-                alt="stories"
+                alt={item.description}
                 width="100%"
                 height="100%"
               />
