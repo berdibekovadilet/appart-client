@@ -11,7 +11,7 @@ const ButtonPrimary = ({
   return (
     <motion.div
       className={styles.container}
-      whileHover={{ scale: 1.1 }}
+      whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.9 }}
     >
       <button className={styles.primary} {...props}>

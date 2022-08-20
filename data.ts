@@ -143,3 +143,70 @@ export const vipCard: IStoriesCard[] = [
     image: "/assets/vipCottages/3.webp",
   },
 ];
+
+export interface IRecommendedCard {
+  id: number;
+  image: string;
+  title: string;
+  room: string;
+  square: string;
+  floor: string;
+  longDesc: string;
+}
+
+export const recommendedCard: IRecommendedCard[] = [
+  {
+    id: 1,
+    image: "/assets/recommendedFlats/1.webp",
+    title: "45 000$",
+    room: "1-ком, кв",
+    square: "53 м2",
+    floor: "9/12",
+    longDesc: "Бишкек, 6-мкр, дом 95",
+  },
+  {
+    id: 2,
+    image: "/assets/recommendedFlats/2.webp",
+    title: "38 000$",
+    room: "1-ком, кв",
+    square: "43 м2",
+    floor: "5/12",
+    longDesc: "Бишкек, 12-мкр, дом 5",
+  },
+  {
+    id: 3,
+    image: "/assets/recommendedFlats/3.webp",
+    title: "47 000$",
+    room: "2-ком, кв",
+    square: "62 м2",
+    floor: "6/9",
+    longDesc: "Бишкек, 6-мкр, дом 95",
+  },
+  {
+    id: 4,
+    image: "/assets/recommendedFlats/4.webp",
+    title: "45 000$",
+    room: "1-ком, кв",
+    square: "53 м2",
+    floor: "9/12",
+    longDesc: "Бишкек, 6-мкр, дом 95",
+  },
+  {
+    id: 5,
+    image: "/assets/recommendedFlats/5.webp",
+    title: "45 000$",
+    room: "1-ком, кв",
+    square: "53 м2",
+    floor: "9/12",
+    longDesc: "Бишкек, 6-мкр, дом 95",
+  },
+  {
+    id: 6,
+    image: "/assets/recommendedFlats/6.webp",
+    title: "45 000$",
+    room: "1-ком, кв",
+    square: "53 м2",
+    floor: "9/12",
+    longDesc: "Бишкек, 6-мкр, дом 95",
+  },
+];
