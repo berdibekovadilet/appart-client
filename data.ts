@@ -2,6 +2,7 @@ export interface INavbarIcons {
   id: number;
   name: string;
   icon: string;
+  link: string;
 }
 
 export const navbarIcons: INavbarIcons[] = [
@@ -9,16 +10,19 @@ export const navbarIcons: INavbarIcons[] = [
     id: 1,
     name: "search",
     icon: "/assets/navbarIcons/search.svg",
+    link: "/search",
   },
   {
     id: 2,
     name: "map",
     icon: "/assets/navbarIcons/map.svg",
+    link: "/map",
   },
   {
     id: 3,
     name: "profile",
     icon: "/assets/navbarIcons/profile.svg",
+    link: "/login",
   },
 ];
 
