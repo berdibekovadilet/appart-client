@@ -1,8 +1,9 @@
 import React from "react";
 import Router from "next/router";
-import styles from "../styles/Login.module.css";
+import styles from "../../styles/Login.module.css";
 import { PageHeader, Button, Form, Input } from "antd";
 import { GoogleOutlined, AppleOutlined } from "@ant-design/icons";
+import Link from "next/link";
 
 const Login: React.FC = () => {
   const onFinish = (values: any) => {
@@ -40,15 +41,17 @@ const Login: React.FC = () => {
           <Input placeholder="Номер телефона" size="large" />
         </Form.Item>
         <Form.Item>
-          <Button
-            type="primary"
-            htmlType="submit"
-            size="large"
-            block
-            className="marginBottom16"
-          >
-            Продолжить
-          </Button>
+          <Link href="/login/enter">
+            <Button
+              type="primary"
+              htmlType="submit"
+              size="large"
+              block
+              className="marginBottom16"
+            >
+              Продолжить
+            </Button>
+          </Link>
           <Button
             type="primary"
             danger
