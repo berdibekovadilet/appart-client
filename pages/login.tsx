@@ -20,6 +20,7 @@ const Login: React.FC = () => {
         className="site-page-header"
         onBack={() => Router.back()}
         title="Вход и регистрация"
+        style={{ marginBottom: "16px", padding: "0px" }}
       />
       <Form
         name="basic"
@@ -36,22 +37,30 @@ const Login: React.FC = () => {
             { required: true, message: "Пожалуйста введите номер телефона!" },
           ]}
         >
-          <Input placeholder="Номер телефона" />
+          <Input placeholder="Номер телефона" size="large" />
         </Form.Item>
         <Form.Item>
           <Button
             type="primary"
             htmlType="submit"
+            size="large"
             block
             className="marginBottom16"
           >
             Продолжить
           </Button>
-          <Button type="primary" danger block className="marginBottom16">
+          <Button
+            type="primary"
+            danger
+            block
+            size="large"
+            className="marginBottom16"
+          >
             <GoogleOutlined /> Вход с Google
           </Button>
           <Button
             type="primary"
+            size="large"
             style={{ background: "black", borderColor: "black" }}
             block
           >
@@ -60,7 +69,7 @@ const Login: React.FC = () => {
           </Button>
         </Form.Item>
         <Form.Item>
-          <Button type="link" block>
+          <Button size="large" type="link" block>
             Служба поддержки
           </Button>
         </Form.Item>
