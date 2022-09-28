@@ -1,6 +1,6 @@
 import React from "react";
 import PageHeader from "../../components/PageHeader/PageHeader";
-import styles from "../../styles/Login.module.css";
+import styles from "../../styles/Login.module.scss";
 import { Button, Form, Input } from "antd";
 import { GoogleOutlined, AppleOutlined } from "@ant-design/icons";
 import Link from "next/link";

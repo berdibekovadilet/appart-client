@@ -79,6 +79,7 @@ export interface IMenuIcons {
   id: number;
   text: string;
   icon: string;
+  link: string;
 }
 
 export const menuIcons: IMenuIcons[] = [
@@ -86,41 +87,49 @@ export const menuIcons: IMenuIcons[] = [
     id: 1,
     text: "Купить",
     icon: "/assets/menuIcons/buy.svg",
+    link: "/buy",
   },
   {
     id: 2,
     text: "Аренда",
     icon: "/assets/menuIcons/rent.svg",
+    link: "/rent",
   },
   {
     id: 3,
     text: "Оценка",
     icon: "/assets/menuIcons/evaluation.svg",
+    link: "/appraisal",
   },
   {
     id: 4,
     text: "Новостройки",
     icon: "/assets/menuIcons/newBuildings.svg",
+    link: "/newbuildings",
   },
   {
     id: 5,
     text: "Подбор риэлтора",
     icon: "/assets/menuIcons/realtorSelection.svg",
+    link: "/realtors",
   },
   {
     id: 6,
     text: "Ипотека",
     icon: "/assets/menuIcons/mortgage.svg",
+    link: "/mortgage",
   },
   {
     id: 7,
     text: "Проверка жилья",
     icon: "/assets/menuIcons/housingChecking.svg",
+    link: "/checking",
   },
   {
     id: 8,
     text: "Оформление сделок",
     icon: "/assets/menuIcons/dealsRegistration.svg",
+    link: "/dealregistration",
   },
 ];
 
