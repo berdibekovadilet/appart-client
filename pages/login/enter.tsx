@@ -1,7 +1,8 @@
 import React from "react";
 import Router from "next/router";
 import styles from "../../styles/Login.module.css";
-import { PageHeader, Button, Form, Input } from "antd";
+import PageHeader from "../../components/PageHeader/PageHeader";
+import { Button, Form, Input } from "antd";
 import { GoogleOutlined, AppleOutlined } from "@ant-design/icons";
 import Title from "../../components/Title/Title";
 
@@ -14,15 +15,9 @@ const Enter: React.FC = () => {
     console.log("Failed:", errorInfo);
   };
 
-  const onBack = () => {};
   return (
     <div className={styles.container}>
-      <PageHeader
-        className="site-page-header"
-        onBack={() => Router.back()}
-        title="Вход и регистрация"
-        style={{ marginBottom: "16px", padding: "0px" }}
-      />
+      <PageHeader>Вход и регистрация</PageHeader>
       <div className={styles.info}>
         <Title title="h2">Подтверждение входа</Title>
         <p>
@@ -36,7 +31,7 @@ const Enter: React.FC = () => {
       <Form
         name="basic"
         labelCol={{ span: 8 }}
-        wrapperCol={{ span: 16 }}
+        wrapperCol={{ span: 24 }}
         initialValues={{ remember: true }}
         onFinish={onFinish}
         onFinishFailed={onFinishFailed}
