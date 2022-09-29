@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const VipCottages = () => {
   return (
     <section className={styles.container}>
-      <Title title="h2">Коттеджи</Title>
+      <Title size="h2">Коттеджи</Title>
       <div className={styles.row}>
         {vipCard.map((item) => (
           <motion.div

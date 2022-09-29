@@ -9,7 +9,7 @@ const HousingComplexes1 = () => {
   return (
     <section className={styles.container}>
       <div className={styles.complexContainer}>
-        <Title title="h2">Жилые комплексы</Title>
+        <Title size="h2">Жилые комплексы</Title>
         <Image
           src="/assets/housingComplexes/avangard/avangardLogo.svg"
           width="80"

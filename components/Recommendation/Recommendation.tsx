@@ -8,7 +8,7 @@ import styles from "./Recommendation.module.scss";
 const Recommendation = () => {
   return (
     <section className={styles.container}>
-      <Title title="h2">Рекомендации</Title>
+      <Title size="h2">Рекомендации</Title>
       <div className={styles.row}>
         {recommendedCard.map((item) => (
           <motion.div

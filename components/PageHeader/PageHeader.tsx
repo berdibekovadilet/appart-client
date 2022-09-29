@@ -14,7 +14,7 @@ const PageHeader: FC<PageHeaderProps> = ({ children }) => {
       <div className={styles.iconContainer} onClick={() => Router.back()}>
         <LeftOutlined />
       </div>
-      <Title title="h2">{children}</Title>
+      <Title size="h2">{children}</Title>
     </div>
   );
 };

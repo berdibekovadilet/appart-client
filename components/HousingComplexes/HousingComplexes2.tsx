@@ -9,7 +9,7 @@ const HousingComplexes2 = () => {
   return (
     <section className={styles.container}>
       <div className={styles.complexContainer}>
-        <Title title="h2">Жилые комплексы</Title>
+        <Title size="h2">Жилые комплексы</Title>
         <Image
           src="/assets/housingComplexes/royal/royalLogo.png"
           width="100"

@@ -1,10 +1,9 @@
 import React from "react";
-import Router from "next/router";
-import styles from "../../styles/Login.module.scss";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import { Button, Form, Input } from "antd";
 import { GoogleOutlined, AppleOutlined } from "@ant-design/icons";
 import Title from "../../components/Title/Title";
+import styles from "./Login.module.scss";
 
 const Enter: React.FC = () => {
   const onFinish = (values: any) => {
@@ -19,7 +18,7 @@ const Enter: React.FC = () => {
     <div className={styles.container}>
       <PageHeader>Вход и регистрация</PageHeader>
       <div className={styles.info}>
-        <Title title="h2">Подтверждение входа</Title>
+        <Title size="h2">Подтверждение входа</Title>
         <p>
           Подтвердите номер телефона <br /> <b>+996 (0702) 010-203</b> введите
           код из смс

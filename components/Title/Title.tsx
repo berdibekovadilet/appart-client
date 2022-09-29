@@ -1,8 +1,8 @@
 import { TitleProps } from "./Title.props";
 import styles from "./Title.module.scss";
 
-const Title = ({ title, children }: TitleProps): JSX.Element => {
-  switch (title) {
+const Title = ({ size, children }: TitleProps): JSX.Element => {
+  switch (size) {
     case "h1":
       return <h1 className={styles.h1}>{children}</h1>;
     case "h2":

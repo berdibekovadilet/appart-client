@@ -1,29 +1,32 @@
 import { Button, Divider } from "antd";
+import Link from "next/link";
 import React from "react";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import Title from "../../components/Title/Title";
-import styles from "../../styles/Dealregistration.module.scss";
+import styles from "./Dealregistration.module.scss";
 
 const Dealregistration = () => {
   return (
     <div className={styles.container}>
       <PageHeader>Оформление сделок</PageHeader>
-      <Title title="h1">Оформление сделок</Title>
+      <Title size="h1">Оформление сделок</Title>
       <p style={{ marginBottom: "16px" }}>
         Операции с недвижимостью - дело ответственное и достаточно хлопотное.
         Разновидностей сделок - немалое количество. Как же нужно действовать,
         когда вы уже определились с покупкой либо продажей, дарением либо
         обменом недвижимости?
       </p>
-      <Button type="primary" size="large" block>
-        Заказать сопровождение сделок
-      </Button>
+      <Link href="/dealregistration/submitting">
+        <Button type="primary" size="large" block>
+          Заказать сопровождение сделок
+        </Button>
+      </Link>
       <div className={styles.content}>
-        <Title title="h3">Виды сделок с недвижимостью:</Title>
+        <Title size="h3">Виды сделок с недвижимостью:</Title>
         <p>- Купля-продажа за наличный расчет</p>
         <p>- Гос. Ипотека</p>
       </div>
-      <Title title="h3">Купля-продажа за наличный расчет</Title>
+      <Title size="h3">Купля-продажа за наличный расчет</Title>
       <p style={{ marginBottom: "16px" }}>
         Итак, сделка готова состояться - две стороны, собственник и
         приобретатель, в наличии. Все договора по отчуждению недвижимости
@@ -38,7 +41,7 @@ const Dealregistration = () => {
         нотариата - нотариальными конторами, как государственными, так и
         частными.
       </p>
-      <Title title="h3">
+      <Title size="h3">
         Шаг 1. Подтверждение права собственности владельца
       </Title>
       <p>

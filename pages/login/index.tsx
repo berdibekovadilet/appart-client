@@ -1,9 +1,9 @@
 import React from "react";
 import PageHeader from "../../components/PageHeader/PageHeader";
-import styles from "../../styles/Login.module.scss";
 import { Button, Form, Input } from "antd";
 import { GoogleOutlined, AppleOutlined } from "@ant-design/icons";
 import Link from "next/link";
+import styles from "./Login.module.scss";
 
 const Login: React.FC = () => {
   const onFinish = (values: any) => {

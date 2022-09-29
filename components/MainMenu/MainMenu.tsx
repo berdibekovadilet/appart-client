@@ -9,7 +9,7 @@ import Link from "next/link";
 const MainMenu = () => {
   return (
     <section className={styles.container}>
-      <Title title="h2">Главное меню</Title>
+      <Title size="h2">Главное меню</Title>
       <div className={styles.row}>
         {menuIcons.map((item) => (
           <motion.div
