@@ -286,3 +286,103 @@ export const RoyalComplex: IHouseComplex[] = [
     location: "мкр. Асанбай",
   },
 ];
+
+export interface ICreateObjectIcons {
+  id: number;
+  title: string;
+  icon: string;
+}
+
+export const adType: ICreateObjectIcons[] = [
+  {
+    id: 1,
+    title: "Продать",
+    icon: "/assets/objectCreateIcon/key.svg",
+  },
+  {
+    id: 2,
+    title: "Сдать длительно",
+    icon: "/assets/objectCreateIcon/calendar.svg",
+  },
+  {
+    id: 3,
+    title: "Сдать посуточно",
+    icon: "/assets/objectCreateIcon/watch.svg",
+  },
+];
+
+export const propertyType: ICreateObjectIcons[] = [
+  {
+    id: 1,
+    title: "Квартира",
+    icon: "/assets/objectCreateIcon/building.svg",
+  },
+  {
+    id: 2,
+    title: "Комната",
+    icon: "/assets/objectCreateIcon/keyhole.svg",
+  },
+  {
+    id: 3,
+    title: "Дом",
+    icon: "/assets/objectCreateIcon/house.svg",
+  },
+  {
+    id: 4,
+    title: "Участок",
+    icon: "/assets/objectCreateIcon/dig.svg",
+  },
+  {
+    id: 5,
+    title: "Коммерческая",
+    icon: "/assets/objectCreateIcon/shop.svg",
+  },
+];
+
+export const comfortItems: ICreateObjectIcons[] = [
+  {
+    id: 1,
+    title: "Интернет",
+    icon: "/assets/objectCreateIcon/watch.svg",
+  },
+  {
+    id: 2,
+    title: "Холодильник",
+    icon: "/assets/objectCreateIcon/watch.svg",
+  },
+  {
+    id: 3,
+    title: "Кондиционер",
+    icon: "/assets/objectCreateIcon/watch.svg",
+  },
+  {
+    id: 4,
+    title: "Лифт",
+    icon: "/assets/objectCreateIcon/watch.svg",
+  },
+  {
+    id: 5,
+    title: "Мебель на кухне",
+    icon: "/assets/objectCreateIcon/watch.svg",
+  },
+  {
+    id: 6,
+    title: "Мебель в квартире",
+    icon: "/assets/objectCreateIcon/watch.svg",
+  },
+  {
+    id: 7,
+    title: "Охрана",
+    icon: "/assets/objectCreateIcon/watch.svg",
+  },
+  {
+    id: 8,
+    title: "Балкон",
+    icon: "/assets/objectCreateIcon/watch.svg",
+  },
+  {
+    id: 9,
+    title: "Закрытая территория",
+    icon: "/assets/objectCreateIcon/watch.svg",
+  },
+];

@@ -18,7 +18,7 @@ const Enter: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Appart.kg - Вход и регистрация</title>
+        <title>Вход и регистрация | Appart.kg</title>
         <meta
           name="description"
           content="Appart.kg - вход и регистрация недвижимости в Бишкеке, Кыргызстане"

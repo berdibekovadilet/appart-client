@@ -19,7 +19,7 @@ const Login: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Appart.kg - Вход и регистрация</title>
+        <title>Вход и регистрация | Appart.kg</title>
         <meta
           name="description"
           content="Appart.kg - вход и регистрация недвижимости в Бишкеке, Кыргызстане"
@@ -48,7 +48,7 @@ const Login: React.FC = () => {
                 },
               ]}
             >
-              <Input placeholder="Номер телефона" size="large" />
+              <Input placeholder="Номер телефона" size="large" type="tel" />
             </Form.Item>
             <Form.Item>
               <Link href="/login/enter">

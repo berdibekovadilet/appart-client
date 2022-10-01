@@ -20,7 +20,7 @@ const Submitting = () => {
   return (
     <>
       <Head>
-        <title>Appart.kg - Оформление сделок</title>
+        <title>Оформление сделок | Appart.kg</title>
         <meta
           name="description"
           content="Appart.kg - оформление сделок недвижимости в Бишкеке, Кыргызстане"
@@ -45,7 +45,7 @@ const Submitting = () => {
               name="Номер телефона"
               rules={[{ required: true, message: "Ваш номер телефона" }]}
             >
-              <Input placeholder="Ваш номер телефона" size="large" />
+              <Input placeholder="Ваш номер телефона" size="large" type="tel" />
             </Form.Item>
             <Form.Item
               name="Номер телефона"

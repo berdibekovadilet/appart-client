@@ -10,7 +10,7 @@ const Dealregistration = () => {
   return (
     <>
       <Head>
-        <title>Appart.kg - Оформление сделок</title>
+        <title>Оформление сделок | Appart.kg</title>
         <meta
           name="description"
           content="Appart.kg - оформление сделок недвижимости в Бишкеке, Кыргызстане"
