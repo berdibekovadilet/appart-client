@@ -348,12 +348,12 @@ export const comfortItems: ICreateObjectIcons[] = [
   {
     id: 2,
     title: "Холодильник",
-    icon: "/assets/objectCreateIcon/watch.svg",
+    icon: "/assets/objectCreateIcon/shop.svg",
   },
   {
     id: 3,
     title: "Кондиционер",
-    icon: "/assets/objectCreateIcon/watch.svg",
+    icon: "/assets/objectCreateIcon/house.svg",
   },
   {
     id: 4,
@@ -363,22 +363,22 @@ export const comfortItems: ICreateObjectIcons[] = [
   {
     id: 5,
     title: "Мебель на кухне",
-    icon: "/assets/objectCreateIcon/watch.svg",
+    icon: "/assets/objectCreateIcon/house.svg",
   },
   {
     id: 6,
     title: "Мебель в квартире",
-    icon: "/assets/objectCreateIcon/watch.svg",
+    icon: "/assets/objectCreateIcon/shop.svg",
   },
   {
     id: 7,
     title: "Охрана",
-    icon: "/assets/objectCreateIcon/watch.svg",
+    icon: "/assets/objectCreateIcon/house.svg",
   },
   {
     id: 8,
     title: "Балкон",
-    icon: "/assets/objectCreateIcon/watch.svg",
+    icon: "/assets/objectCreateIcon/shop.svg",
   },
   {
     id: 9,
